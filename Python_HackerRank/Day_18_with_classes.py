@@ -2,7 +2,7 @@ import sys
 
 from collections import deque
 
-class Solution(self,str):
+class Solution:
 
     def __init__(self):
         self.stack = list()
@@ -18,7 +18,7 @@ class Solution(self,str):
     def popCharacter(self):
         return self.stack.pop()
 
-    def dequeueCharacter(): 
+    def dequeueCharacter(self): 
         return self.queue.popleft()
 
 
