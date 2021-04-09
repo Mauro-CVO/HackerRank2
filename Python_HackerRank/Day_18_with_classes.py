@@ -14,7 +14,6 @@ class Solution:
     def enqueueCharacter(self,character):
         self.queue.append(character)
 
-
     def popCharacter(self):
         return self.stack.pop()
 
