@@ -10,9 +10,7 @@ def palindrome(p):
         s_ls.append(s_ws[j])
         i = i - 1
         j = j + 1
-        print(s_ls)
-
-    
+        #print(s_ls)    
     s_ls1 = []
     s_ls2 = []
     for i in s_ls[:len(s_ls)//2]:
@@ -22,8 +20,8 @@ def palindrome(p):
     k = 0
     n = 0
     m = len(s_ls2) - 1
-    print(s_ls1[n])
-    print(s_ls2[m])
+    #print(s_ls1[n])
+    #print(s_ls2[m])
     for i in s_ls1:
         if s_ls1[n] == s_ls2[m]:
             n = n + 1
